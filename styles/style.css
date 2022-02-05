@@ -141,3 +141,72 @@ body {
     background: #555; 
   }
   /* Scroll Bar ended */
+
+  /* Video setion started */
+  .videos {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+  }
+  .video-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .video {
+    width: 17.5rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom: 1.6rem;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: 11rem;
+  }
+  
+  .video-thumbnail img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .video-details {
+    display: flex;
+    margin-top: 0.75rem;
+  }
+  
+  .author img {
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title h3 {
+    color: rgb(3, 3, 3);
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    height: 2.25rem;
+    overflow: hidden;
+  }
+  
+  .title a,
+  .title span {
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 0.8rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+  }
