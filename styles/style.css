@@ -176,7 +176,7 @@ body {
   }
 
   .video-details {
-    display: flex;
+    /* display: flex; */
     margin-top: 0.75rem;
   }
   
@@ -209,4 +209,33 @@ body {
     font-size: 0.8rem;
     margin-top: 0.15rem;
     margin-bottom: 0.15rem;
+  }
+
+  @media (max-width: 512px) {
+    .header-right .material-icons {
+      display: none;
+    }
+    .video-thumbnail img{
+        height: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .video {
+      width: 40rem !important;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .header-center {
+      display: none;
+    }
+  
+    .sidebar {
+      display: none;
+    }
+  
+    .video {
+      width: 25rem;
+    }
   }
